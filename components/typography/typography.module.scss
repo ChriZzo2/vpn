@@ -5,94 +5,69 @@
 
 .large {
   font-size: var(--font-size-xxl);
-  font-weight: var(--font-weight-semibold);
-  line-height: var(--line-height-l);
-}
-
-.h1 {
-  font-size: var(--font-size-xl);
   font-weight: var(--font-weight-bold);
-  line-height: var(--line-height-l);
+  line-height: var(--line-height-xxl);
 }
 
-.h2 {
+.title1 {
   font-size: var(--font-size-l);
   font-weight: var(--font-weight-bold);
-  line-height: var(--line-height-m);
+  line-height: var(--line-height-xl);
 }
 
-.h3 {
+.title2 {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-l);
+}
+
+.Subtitle {
   font-size: var(--font-size-m);
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-m);
 }
 
-.regular16 {
+.Body {
   font-size: var(--font-size-m);
-  font-weight: var(--font-weight-regular);
-  line-height: var(--line-height-m);
-}
-
-.regularBold16 {
-  font-size: var(--font-size-m);
-  font-weight: var(--font-weight-bold);
-  line-height: var(--line-height-m);
-}
-
-.regular14 {
-  font-size: var(--font-size-s);
-  font-weight: var(--font-weight-regular);
-  line-height: var(--line-height-m);
-}
-
-.regularMedium14 {
-  font-size: var(--font-size-s);
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-m);
 }
 
-.regularBold14 {
+.Text {
   font-size: var(--font-size-s);
-  font-weight: var(--font-weight-bold);
-  line-height: var(--line-height-m);
-}
-
-.small {
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-regular);
-  line-height: var(--line-height-s);
-}
-
-.smallSemiBold {
-  font-size: var(--font-size-xs);
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-s);
 }
 
-.regularLink {
-  cursor: pointer;
-
+.Capture {
   font-size: var(--font-size-s);
   font-weight: var(--font-weight-regular);
-  line-height: var(--line-height-m);
-  color: var(--color-accent-500);
-  text-decoration: underline;
-}
-
-.smallLink {
-  cursor: pointer;
-
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-regular);
   line-height: var(--line-height-s);
-  color: var(--color-accent-500);
-  text-decoration: underline;
 }
 
-// @include mobile-small {
-//  .h1 {
-//    font-size: var(--font-size-l);
-//    font-weight: var(--font-weight-bold);
-//    line-height: var(--line-height-m);
-//  }
-// }
+.Footnote {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-s);
+}
+
+.blue {
+  color: var(--color-blue);
+}
+
+.orange {
+  color: var(--color-orange)
+}
+
+.black {
+  color: var(--color-black);
+}
+
+.white {
+  color: var(--color-white);
+}
+
+
+
+
+

@@ -1,0 +1,56 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  row-gap: 8px;
+  column-gap: 32px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  & > * {
+    position: relative;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 0.5px;
+      background-color: grey; // Цвет линии
+    }
+
+    &::before {
+      top: -4px;
+    }
+
+    &::after {
+      bottom: -4px;
+    }
+  }
+}
+
+.container{
+  padding: 18px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  max-width: 500px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-feature-settings: 'liga' off, 'clig' off;
+}
+.title1{
+  color: var(--color-orange)
+}
+
+.title2{
+color: var(--color-blue);
+}
+.subtitle{
+  color: grey;
+}

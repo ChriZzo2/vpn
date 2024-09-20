@@ -1,1 +1,1 @@
-export * from './chooseName'
+export * from './benefits'

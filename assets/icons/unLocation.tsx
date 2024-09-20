@@ -1,6 +1,6 @@
 import { type SVGProps } from 'react'
 
-export const Location = (props: SVGProps<SVGSVGElement>) => (
+export const UnLocation = (props: SVGProps<SVGSVGElement>) => (
     <svg width="104" height="52" viewBox="0 0 104 52"  xmlns="http://www.w3.org/2000/svg" {...props}>
         <g clip-path="url(#clip0_0_2695)">
             <path
